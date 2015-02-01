@@ -1,0 +1,1 @@
+WC=eta_inc;echo "convert \\"; find *$WC*.png* | sort -V | sed  's/$/ \\/' | sed 's/^/ /'; echo " Combined_$WC.pdf"

@@ -1,0 +1,2 @@
+
+echo "hadd -f tau4mom.root \\" > join.sh; find /tmp/zenon/V62/  -name "*.root*" -type f | sed  's/$/ \\/' | sed 's/^/ /' >> join.sh

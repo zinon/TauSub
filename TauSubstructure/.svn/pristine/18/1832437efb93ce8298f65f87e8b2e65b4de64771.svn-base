@@ -1,0 +1,1 @@
+ERROR : --rootVer cannot be used together with --noBuild since ROOT is prepared in the build step

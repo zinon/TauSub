@@ -1,0 +1,3 @@
+
+WC=eta_inc;echo "pdftk \\"; find *$WC*.pdf* | sort -V | sed  's/$/ \\/' | sed 's/^/ /'; echo " cat output Combined_$WC.pdf"
+
